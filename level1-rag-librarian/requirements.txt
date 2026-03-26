@@ -1,0 +1,23 @@
+# Level 1: RAG Document Q&A - "The Librarian"
+# Install all of these with: pip install -r requirements.txt
+
+# --- Core AI ---
+langchain==0.3.25            # The framework that connects everything together
+langchain-community==0.3.24  # Extra tools and integrations for LangChain
+langchain-anthropic==0.3.15  # Connects LangChain to Claude (for answering questions)
+
+# --- Embeddings (FREE - runs locally on your computer!) ---
+sentence-transformers==4.1.0 # Turns text into numbers (embeddings) — no API key needed!
+
+# --- Vector Database ---
+chromadb==1.0.7              # Our "smart filing cabinet" that stores document embeddings
+
+# --- Document Loading ---
+pypdf==5.4.0                 # Reads PDF files
+python-docx==1.1.2           # Reads Word documents
+
+# --- Web UI ---
+streamlit==1.45.1            # Creates web apps with pure Python (super easy!)
+
+# --- Utilities ---
+python-dotenv==1.1.0         # Loads API keys from a .env file (keeps secrets safe)

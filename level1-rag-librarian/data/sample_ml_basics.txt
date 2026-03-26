@@ -1,0 +1,15 @@
+Machine Learning Fundamentals
+
+Machine learning is a branch of artificial intelligence that focuses on building systems that learn from data. Instead of being explicitly programmed to perform a task, these systems use algorithms to identify patterns in data and make decisions with minimal human intervention.
+
+There are three main types of machine learning:
+
+Supervised Learning: The algorithm learns from labeled training data. For example, given thousands of emails labeled as "spam" or "not spam", the algorithm learns to classify new emails. Common algorithms include Linear Regression, Decision Trees, and Support Vector Machines.
+
+Unsupervised Learning: The algorithm finds hidden patterns in unlabeled data. For example, grouping customers into segments based on their purchasing behavior without knowing the groups in advance. K-Means Clustering and Principal Component Analysis (PCA) are popular unsupervised methods.
+
+Reinforcement Learning: The algorithm learns by interacting with an environment and receiving rewards or penalties. This is how game-playing AIs like AlphaGo were trained. The agent tries different strategies and learns which actions lead to the best outcomes.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers. These deep neural networks are particularly good at processing unstructured data like images, text, and audio. Convolutional Neural Networks (CNNs) excel at image recognition, while Recurrent Neural Networks (RNNs) and Transformers are used for natural language processing.
+
+The machine learning workflow typically involves: collecting data, cleaning and preprocessing it, splitting into training and test sets, choosing a model, training it, evaluating performance, and deploying it to production. Feature engineering and hyperparameter tuning are crucial steps that can significantly impact model performance.

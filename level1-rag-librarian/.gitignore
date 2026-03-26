@@ -1,0 +1,17 @@
+# Never push your API keys to GitHub!
+.env
+
+# Python stuff
+__pycache__/
+*.pyc
+
+# ChromaDB storage (can be regenerated)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Large files / copyrighted material
+*.pdf
+data/Applied MultiVar Stat Analysis 6th Edition copy
