@@ -19,7 +19,7 @@ HOW IT WORKS:
     4. When someone asks a question, convert the question to an embedding
     5. Find the chunks whose embeddings are CLOSEST to the question's embedding
 
-    "What is supervised learning?" → finds chunks about supervised learning,
+    "What is supervised learning?" → finds chunks about supervised learning, 
     even if those chunks never use the exact phrase!
 """
 
